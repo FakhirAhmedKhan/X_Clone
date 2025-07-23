@@ -1,3 +1,6 @@
+import pic from "./assets/pic.jpeg";
+import Postpic from "./assets/post-image.jfif";
+
 const postIcons = [
   { icon: "chat_bubble", count: "1k", color: "hover:text-blue-500" },
   { icon: "repeat", count: "1k", color: "hover:text-green-500" },
@@ -73,7 +76,7 @@ const CenterSide = () => {
         <div className="flex p-4">
           <img
             className="w-12 sm:w-14 h-12 sm:h-14 rounded-full mr-4"
-            src="./src/assets/pic.jpeg"
+            src={pic}
             alt="Fakhir Ahmed Khan"
             loading="lazy"
           />
@@ -88,7 +91,7 @@ const CenterSide = () => {
             <div className="mt-3">
               <img
                 className="rounded-xl max-w-full h-auto"
-                src="./src/assets/post-image.jfif"
+                src={Postpic}
                 alt="Post content"
                 width="900"
                 height="900"

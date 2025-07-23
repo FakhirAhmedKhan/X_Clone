@@ -1,4 +1,5 @@
 import { useState } from "react";
+import pic from "./assets/pic.jpeg";
 
 export default function LeftSide() {
   const [isOpen, setIsOpen] = useState(false);
@@ -71,7 +72,7 @@ export default function LeftSide() {
 
           <div className="mt-auto pt-6 flex items-center gap-3 p-3 rounded-full hover:bg-gray-800 cursor-pointer">
             <img
-              src="./src/assets/pic.jpeg"
+              src={pic}
               alt="Fakhir Ahmed Khan"
               className="w-12 h-12 rounded-full"
               loading="lazy"
