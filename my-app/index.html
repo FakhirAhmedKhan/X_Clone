@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Twitter (X) clone made using React and Tailwind CSS"
+    />
+    <title>Home / X</title>
+    <link
+      rel="shortcut icon"
+      href="https://abs.twimg.com/favicons/twitter-pip.3.ico"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="/src/assets/post-image.jfif"
+      fetchpriority="high"
+    />
+  </head>
+
+  <style>
+    @import "tailwindcss";
+  </style>
+
+  <body class="bg-black text-white font-sans">
+    <div class="flex md:container mx-auto my-4" id="root"></div>
+    <script type="module" src="./src/main.jsx"></script>
+  </body>
+</html>
