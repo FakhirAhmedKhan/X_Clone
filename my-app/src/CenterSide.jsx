@@ -34,7 +34,8 @@ const CenterSide = () => {
       <section className="flex gap-4 p-4 border-b border-gray-700 max-w-2xl mx-auto w-full">
         <img
           className="w-12 h-12 rounded-full"
-          src="./src/assets/pic.jpeg"
+          src={pic}
+          loading="lazy"
           alt="Profile"
         />
         <div className="flex-1">
